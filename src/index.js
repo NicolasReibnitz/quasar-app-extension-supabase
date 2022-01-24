@@ -12,4 +12,9 @@ module.exports = function (api) {
   if(!fs.existsSync(configFile)) {
     api.render('./templates')
   }
+
+  // ensure boot file is registered
+  api.extendQuasarConf((conf, api) => {
+    conf.boot.push('~quasar-app-extension-my-ext/src/boot/vue-model-supabase-install.js')
+  })
 }
