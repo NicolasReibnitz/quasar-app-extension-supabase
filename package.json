@@ -1,7 +1,7 @@
 {
-  "name": "@vuemodel/quasar-app-extension-vuemodel",
-  "version": "0.0.1",
-  "description": "VueModel Supabase App Extension For Quasar",
+  "name": "@vuemodel/quasar-app-extension-supabase",
+  "version": "0.0.2",
+  "description": "Streamline the integration of vuemodel supabase with quasar!",
   "author": "luke@quasarcast.com",
   "license": "MIT",
   "main": "src/index.js",
