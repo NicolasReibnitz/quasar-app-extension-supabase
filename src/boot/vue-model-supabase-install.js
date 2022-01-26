@@ -1,6 +1,6 @@
 import { SupabasePlugin } from '@vuemodel/supabase'
-import supabaseConfig from 'src/config/supabase.js'
+import supabaseConfig from 'app/config/supabase.js'
 
 export default ({ app }) => {
-  app.install(SupabasePlugin, supabaseConfig)
+  app.use(SupabasePlugin, supabaseConfig)
 }

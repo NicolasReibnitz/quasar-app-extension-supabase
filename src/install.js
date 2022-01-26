@@ -4,7 +4,7 @@ module.exports = function (api) {
   // There may already be a config file for supabase
   // if @vueauth/supabase has created it already.
   // We check if it exists before rendering
-  const dir = api.resolve.src('config')
+  const dir = api.resolve.appDir
   const configFile = dir + '/config/supabase.js'
   if(!fs.existsSync(configFile)) {
     api.render('./templates')

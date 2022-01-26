@@ -10,5 +10,11 @@ quasar ext add @vuemodel/supabase
 ```
 Ensure your credentials are set in `src/config/supabase.js`
 
+> You'll likely want to pair this with the [vuex-orm AE](https://github.com/ldiebold/quasar-app-extension-vuex-orm) and the [@vueauth/auth AE](https://quasar.vueauth.com/)
+
+# Docs coming soon but...
+There's a [video that covers installation](https://youtu.be/bJTz7h3o44I), and much of the API!
+Check it out [here](https://youtu.be/bJTz7h3o44I)
+
 # Donate
 If you appreciate the work that went into this App Extension, please consider [donating to Quasar](https://donate.quasar.dev).

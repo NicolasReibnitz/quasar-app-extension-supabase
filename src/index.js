@@ -6,6 +6,6 @@ module.exports = function (api) {
 
   // ensure boot file is registered
   api.extendQuasarConf((conf, api) => {
-    conf.boot.push('~quasar-app-extension-my-ext/src/boot/vue-model-supabase-install.js')
+    conf.boot.push('~@vuemodel/quasar-app-extension-supabase/src/boot/vue-model-supabase-install.js')
   })
 }
