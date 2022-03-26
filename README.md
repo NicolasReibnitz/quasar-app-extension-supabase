@@ -8,7 +8,7 @@ The underlying library - [@vuemodel/supabase](https://github.com/vuemodel/supaba
 ```bash
 quasar ext add @vuemodel/supabase
 ```
-Ensure your credentials are set in `src/config/supabase.js`
+Ensure your credentials are set in `config/supabase.js`
 
 > You'll likely want to pair this with the [vuex-orm AE](https://github.com/ldiebold/quasar-app-extension-vuex-orm) and the [@vueauth/auth AE](https://quasar.vueauth.com/)
 
