@@ -1,6 +1,8 @@
-import { SupabasePlugin } from '@vuemodel/supabase/src/main'
-import supabaseConfig from 'app/config/supabase.js'
+import { SupabasePlugin } from '@vuemodel/supabase/src/main';
+import { supabase } from 'src/js/supabase';
 
 export default ({ app }) => {
-  app.use(SupabasePlugin, supabaseConfig)
-}
+	if (process.env.GLASNOST_MODE === 'editor') {
+		app.use(SupabasePlugin, { supabaseInstance: supabase });
+	}
+};
